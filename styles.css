@@ -1,0 +1,37 @@
+body {
+    background-color: rgba(17, 15, 43, 0.895);
+}
+
+#board {
+    background-color: green;
+    width: 80%;
+    height: 80vh;
+    border-radius: 10px;
+    border: solid black 2px;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+#player1, #player2 {
+    width: 45%;
+    border: solid red 2px;
+}
+
+.beautifulCard {
+    border: solid gold 5px;
+    width: 50%;
+    height: 200px;
+    border-radius: 5px;
+    margin: auto;
+    margin-top: 30%;
+    font-size: 5rem;
+    text-align: center;
+    background-color: antiquewhite;
+}
+
+#scores{
+    color: white;
+    font-size: 3rem;
+    text-align: center;
+}
